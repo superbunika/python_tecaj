@@ -10,10 +10,9 @@ my_string = my_string.lower()
 my_set = set(my_string.split(" "))
 print(len(my_set))
 
-
+# new test comment
 my_list = my_string.split(" ")
 out_list = []
-
 for word in my_list:
     is_distinct = True
     for dist_word in out_list:
