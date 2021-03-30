@@ -15,11 +15,19 @@ with open("podaci.json", encoding="utf8") as f:
     podaci = json.load(f)
 
 def rekurzija(ulaz, prefiks = ""):
-    for k, v in ulaz.items():
-        if type(v) is dict:
-            print("{}{}:".format(prefiks, k))
-            rekurzija(v, prefiks + "        ")
-        else:
-            print("{}{}: {}".format(prefiks, k, v))
+    if type(ulaz) is list:
+        for v in ulaz:
+            if type(v) is dict or type(v) is list:
+                rekurzija(v, prefiks + "        ")
+            else:
+                print("{}{}".format(prefiks, v))
+    
+    if type(ulaz) is dict:
+        for k, v in ulaz.items():
+            if type(v) is dict or type(v) is list:
+                print("{}{}:".format(prefiks, k))
+                rekurzija(v, prefiks + "        ")
+            else:
+                print("{}{}: {}".format(prefiks, k, v))
 
 rekurzija(podaci)

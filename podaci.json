@@ -13,7 +13,7 @@
     "skolovanje" : {
         "vrtić" :  { 
                     "mjesto" : "Zenica",
-                    "razdoblje" : [ 1983, 1986 ],
+                    "razdoblje" : [ 1983, 1986, [1, 2, 3, {"a": "1", "b": {"2": "3"}}] ],
                     "ponašanje" : "bezobrazan"
                     },
         "osnovna" : {
