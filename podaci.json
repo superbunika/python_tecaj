@@ -1,0 +1,30 @@
+{
+    "ime" : "Rade",
+    "prezime" : "Pendrek",
+    "godina" : "40",
+    "zanimanje" : "milicioner",
+    "ocjene" : [ 1, 2, 1, 1 ],
+    "rodbina" : {
+        "mama" : "Radojka",
+        "tata" : "Đuro",
+        "sestra": "Merima",
+        "brat" : "Haso"
+    },
+    "skolovanje" : {
+        "vrtić" :  { 
+                    "mjesto" : "Zenica",
+                    "razdoblje" : [ 1983, 1986 ],
+                    "ponašanje" : "bezobrazan"
+                    },
+        "osnovna" : {
+                        "mjesto" : "Tuzla",
+                        "razdoblje" : [ 1986, 1997 ],
+                        "ponašanje" : "zločest"
+                    },
+        "srednja" : {
+                        "mjesto" : "Sarajevo",
+                        "razdoblje" :[ 1997, 2005 ],
+                        "ponašanje" : "discipliniran"
+                    }
+    }
+}
