@@ -1,30 +1,52 @@
 {
-    "ime" : "Rade",
-    "prezime" : "Pendrek",
-    "godina" : "40",
-    "zanimanje" : "milicioner",
-    "ocjene" : [ 1, 2, 1, 1 ],
-    "rodbina" : {
-        "mama" : "Radojka",
-        "tata" : "Đuro",
-        "sestra": "Merima",
-        "brat" : "Haso"
-    },
-    "skolovanje" : {
-        "vrtić" :  { 
-                    "mjesto" : "Zenica",
-                    "razdoblje" : [ 1983, 1986, [1, 2, 3, {"a": "1", "b": {"2": "3"}}] ],
-                    "ponašanje" : "bezobrazan"
-                    },
-        "osnovna" : {
-                        "mjesto" : "Tuzla",
-                        "razdoblje" : [ 1986, 1997 ],
-                        "ponašanje" : "zločest"
-                    },
-        "srednja" : {
-                        "mjesto" : "Sarajevo",
-                        "razdoblje" :[ 1997, 2005 ],
-                        "ponašanje" : "discipliniran"
-                    }
-    }
+	"ime" : "Rade",
+	"prezime" : "Pendrek",
+	"godina" : "40",
+	"zanimanje" : "milicioner",
+	"ocjene" : [ 1, 2, 1, 1 ],
+	"rodbina" : {
+		"mama" : "Radojka",
+		"tata" : "Đuro",
+		"sestra": "Merima",
+		"brat" : "Haso"
+	},
+	"skolovanje" : {
+		"vrtić" :  { 
+			"mjesto" : "Zenica",
+			"razdoblje" : [ 1983, 1986 ],
+			"ponašanje" : "bezobrazan"
+		},
+		"osnovna" : {
+			"mjesto" : "Tuzla",
+			"razdoblje" : [ 1986, 1997 ],
+			"ponašanje" : "zločest"
+		},
+		"srednja" : {
+			"mjesto" : "Sarajevo",
+			"razdoblje" :[ 1997, 2005 ],
+			"ponašanje" : "discipliniran"
+		}
+	},
+	"hapšenjapokvartalu": [
+		[ 1, 4, 5, 1 ],
+		[ 0, 0, 0, 6 ],
+		[ 5, 1, 3, 0 ]
+	],
+	"strpouzatvor" : [
+		{
+			"lopovi" : {
+				"Mile" : "ukro bicikl",
+				"Suljo" : "ukro cedevitu"
+			},
+			"političari" : {
+				"Fikret" : "varo na porezu",
+				"Saki" : "lažiro diplomu"
+			}
+		},
+		{
+			"popovi" : {
+				"Milosav" : "diro decu"
+			}
+		}
+	]
 }
